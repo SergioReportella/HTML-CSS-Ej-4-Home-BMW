@@ -93,15 +93,19 @@ h2{
     width: 25%;
     flex-direction: column;
     align-items: center;
+    min-height: 275px;
+    justify-content: flex-end;
 }
 
 .imagen-auto img{
     width: 280px;
+    margin-bottom: 20px;
 }
 
 .imagen-auto img:hover{
     width: 300px;
     transition: 1s;
+    margin-bottom: 0px;
 }
 
 .descripcion-auto h3{
